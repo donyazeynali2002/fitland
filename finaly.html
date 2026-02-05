@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>تمرین نهایی</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="finaly.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+
+<body>
+    <p class="top-banner">باعضویت در فیت لند اولین ارسال را مهمون ما باش :)</p>
+
+    <header class="header">
+        <div class="logo">
+            <h3>Fitland</h3>
+            <p>فروشگاه لوازم ورزشی فیت لند</p>
+            <span class="material-symbols-outlined mobile-menu" id="menu-button">
+                menu
+            </span>
+        </div>
+
+        <div class="search-wrapper">
+            <span class="search material-symbols-outlined" id="search">search</span>
+            <input type="search" placeholder="جستجو" class="search-box">
+        </div>
+
+        <nav class="user-actions">
+            <a href="" class="login-link">
+                <span>ثبت نام /ورود</span>
+                <span class="material-symbols-outlined person" id="person">person</span>
+            </a>
+
+            <a href="#" class="cart-link">
+                <span class="material-symbols-outlined">shopping_bag</span>
+                <span class="cart-count">0</span>
+            </a>
+        </nav>
+    </header>
+
+    <nav class="main-navigation" id="main-menu">
+        <ul class="menu">
+            <li><a href="#">مردانه</a></li>
+            <li><a href="#">زنانه</a></li>
+            <li><a href="#">بچگانه</a></li>
+            <li><a href="#">لوازم ورزشی</a></li>
+            <li><a href="#">شیکر و قمقمه</a></li>
+        </ul>
+
+        <ul class="menu">
+            <li class="highlight">
+                <span class="material-symbols-outlined">kid_star</span>
+                <a href="#">جدیدترین محصولات</a>
+            </li>
+            <li class="highlight">
+                <span class="material-symbols-outlined">flash_on</span>
+                <a href="#">تخفیفات ویژه</a>
+            </li>
+            <li class="highlight">
+                <span class="material-symbols-outlined">workspace_premium</span>
+                <a href="#">پرفروش‌ترین</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section class="hero-section">
+            <aside class="stats-sidebar">
+                <div class="stat-item">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">storefront</span>
+                    </div>
+
+                    <div class="stat">
+                        <div class="stat-number">+ ۳۰۰</div>
+                        <div class="stat-text">محصولات متنوع</div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="icon">
+                        <span class="material-symbols-outlined"> thumb_up </span>
+                    </div>
+
+                    <div class="stat">
+                        <div class="stat-number">۹۵ ٪</div>
+                        <div class="stat-text">رضایت مشتری</div>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="icon">
+                        <span class="material-symbols-outlined">calendar_month</span>
+                    </div>
+
+                    <div class="stat">
+                        <div class="stat-number">۴ روز</div>
+                        <div class="stat-text">از خرید تا دریافت</div>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="main-image-wrapper">
+                <img src="image/fitland.png" alt="ورزشکار در حال دویدن" class="image-wrapper">
+            </div>
+
+            <div class="hero-content">
+                <p class="hero-subtitle">راحت و مطمئن خرید کنید!</p>
+                <h1>همراه تو در مسیر سلامتی</h1>
+                <h2>سهم بزرگ خودتان را امروز بگیرید!</h2>
+                <p class="hero-description">بزرگترین حراج فصل فیت لند همین حالا شرع کن و محصولات با یه تخفیف شگفت انگیز
+                    بخر!</p>
+                <button>
+                    <span class="material-symbols-outlined">
+                        arrow_circle_left
+                    </span>مشاهده محصولات
+                </button>
+            </div>
+        </section>
+
+        <div class="Product-card">
+            <div class="card-home-page mobile-blur-card">
+                <img src="image/card-home-page.png" alt="لباس">
+                <a href="/products/newest" class="mobile-blur-overlay">
+                    <div class="mobile-blur-text">
+                        فقط با یک کلیک وارد دنیای محصولات جدید شوید
+                    </div>
+                    <div class="blur-box">
+                        جدید ترین محصولات
+                        <div class="three-square">
+                            <div class="square"></div>
+                            <div class="square"></div>
+                            <div class="square"></div>
+                        </div>
+                    </div>
+                </a>
+                <div class="card">
+                    <p>جدید ترین تخفیفات فصل برند پوما</p>
+                    <p><span>۵۰ ٪ </span>تخفیف روی تمام محصولات </p>
+                </div>
+            </div>
+
+            <div class="card-home-page">
+                <img src="image/card-home-page2.png" alt="لباس">
+                <div class="card">
+                    <p>جدید ترین تخفیفات فصل برند نایک</p>
+                    <p> <span>۵۰ ٪ </span>تخفیف روی تمام محصولات </p>
+                </div>
+            </div>
+            <div class="card-button">
+                <p class="bold">جدید ترین محصولات</p>
+                <p>جدید ترین محصولات با ارسال رایگان تهیه کنید و در سریع ترین زمان درب منزل تحویل بگیرید</p>
+                <button>
+                    <span class="material-symbols-outlined">
+                        arrow_circle_left
+                    </span>
+                    مشاهده محصولات
+                </button>
+            </div>
+        </div>
+
+
+        <div class="baner">
+
+            <img src="image/baner.jpg" alt="خانم با ساعت" class="image-baner">
+
+            <div class="baner-content">
+                <p>برای حال خوب <br><span>لوازم ایروبیک و تناسب اندام بگیر </span></p>
+                <button>
+                    <span class="material-symbols-outlined">
+                        arrow_circle_left
+                    </span>مشاهده همه محصولات
+                </button>
+            </div>
+
+        </div>
+
+
+        <div>
+            <h6>تخفیفات ویژه</h6>
+            <div class="section-header">
+                <button class="button-discount">
+                    <span class="material-symbols-outlined">
+                        arrow_circle_left </span>مشاهده همه
+                </button>
+            </div>
+            <div class="Special-discounts">
+                <div class="discounts">
+                    <div class="image-container">
+                        <img src="image/44b26ae8ecb42d29ad3245a39fa9c18729307acd.png" alt="لباس" class="vip-image">
+                    </div>
+                    <div class="label">
+                        <div class="VIP">VIP</div>
+                    </div>
+                    <div class="discounts-product">
+                        <p>سویشرت نایک مدل AO-14</p>
+                        <p>۳۰۰,۰۰۰ تومان</p>
+                        <p class="size-one">از سایز L تا XXL</p>
+                        <p class="size">از سایز ۳۶ تا ۴۳</p>
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+                <div class="discounts">
+                    <div class="image-container">
+                        <img src="image/468708a44895e646451c55368d7d145284355113.png" alt="لباس" class="off-image">
+                    </div>
+                  
+                    <div class="label">
+                        <div class="off">24%</div>
+                    </div>
+                    <div class="discounts-product">
+                        <p>ست نایک مدل S-2000</p>
+                        <p>۲۰۰۰۰۰ تومان</p>
+                        <p class="size-one">از سایز L تا XXL</p>
+                        <p class="size">از سایز ۳۶ تا ۴۳</p>
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="discounts" id="shoes">
+                    <div class="image-container">
+                        <img src="image/c08fcdce2b079525b9dea0ac910f16d0731a1aa2.png" alt="لباس" class="shoes-image">
+                    </div>
+                    <div class="label">
+                        <div class="off">24%</div>
+                    </div>
+                    <div class="discounts-product">
+                        <p>کفش نایک مدل S-2000</p>
+                        <p>۲۰۰۰۰۰ تومان</p>
+                        <p>از سایز L تا XXL</p>
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shoes-sport">
+                <h6>جدید ترین کفش های ورزشی </h6>
+                <div class="section-header">
+                    <button class="button-discount">
+                        <span class="material-symbols-outlined">
+                            arrow_circle_left </span>مشاهده همه
+                    </button>
+                </div>
+
+                <div class="Special-discounts">
+                    <div class="discounts">
+                        <div class="image-container">
+                            <img src="image/7c489c857c19a9d9167b406f35fdbf826d2b1b8a.png" alt="لباس"
+                                class="shoes-image">
+                        </div>
+                        <div class="discounts-product">
+                            <p>نایک مدل AO-14</p>
+                            <p>۳۰۰,۰۰۰ تومان</p>
+                            <p>از سایز L تا XXL</p>
+                            <div class="color-selector">
+                                <span class="color-dot beige active"></span>
+                                <span class="color-dot brown"></span>
+                                <span class="color-dot black"></span>
+                            </div>
+                        </div>
+                        <div class="label">
+                            <div class="VIP">VIP</div>
+                            <div class="off">24%</div>
+                        </div>
+                    </div>
+
+                    <div class="discounts">
+                        <div class="image-container">
+                            <img src="image/c08fcdce2b079525b9dea0ac910f16d0731a1aa2.png" alt="کفش" class="shoes-image">
+                        </div>
+
+                        <div class="discounts-product">
+                            <p>کفش نایک 2024</p>
+                            <p>۲۰۰۰۰۰ تومان</p>
+                            <p>از سایز L تا XXL</p>
+                            <div class="color-selector">
+                                <span class="color-dot beige active"></span>
+                                <span class="color-dot brown"></span>
+                                <span class="color-dot black"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="discounts" id="shoes">
+                        <div class="image-container">
+                            <img src="image/74c0f6290db6eab4cf009c7370ef255ddeb14a94.jpg" alt="کفش" class="shoes-image">
+                        </div>
+                        <div class="label">
+                            <div class="off">24%</div>
+                        </div>
+                        <div class="discounts-product">
+                            <p>کفش نایک مدل S-2000</p>
+                            <p>۲۰۰۰۰۰ تومان</p>
+                            <p>از سایز L تا XXL</p>
+                            <div class="color-selector">
+                                <span class="color-dot beige active"></span>
+                                <span class="color-dot brown"></span>
+                                <span class="color-dot black"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="baner">
+                <img src="image/d25dbb906e06e3ac7213578c0234646b47c8be41.jpg" alt="مرد درحال دوچرخه سواری"
+                    class="image-baner">
+                <div class="baner-content">
+                    <p>برای لذت بردن از مسیر <br><span>دوچرخه، اسکیت و اسکوتر بگیر</span></p>
+                    <button>
+                        <span class="material-symbols-outlined">
+                            arrow_circle_left
+                        </span>مشاهده همه محصولات
+                    </button>
+                </div>
+            </div>
+            <div class="scooter">
+                <h6>تخفیفات ویژه</h6>
+                <div class="section-header">
+                    <button class="button-discount">
+                        <span class="material-symbols-outlined">
+                            arrow_circle_left </span>مشاهده همه
+                    </button>
+                </div>
+                <div class="Special-discounts">
+                    <div class="discounts">
+                        <div class="image-container">
+                            <img src="image/6a287f1400e07499ab978151e56224380c986e78.jpg" alt="اسکوتر" class="vip-image">
+                        </div>
+                        <div class="label">
+                            <div class="VIP">VIP</div>
+                        </div>
+                        <div class="discounts-product">
+                            <p>اسکوتر مدل A-155</p>
+                            <p>۳۰۰,۰۰۰ تومان</p>
+                            <p>از سایز L تا XXL</p>
+                            <div class="color-selector">
+                                <span class="color-dot beige active"></span>
+                                <span class="color-dot brown"></span>
+                                <span class="color-dot black"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="discounts">
+                        <div class="image-container">
+                            <img src="image/0ab581e4ea559fc4e560a4e976cd06b820a70086.jpg" alt="دوچرخه" class="off-image">
+                        </div>
+                       
+                        <div class="label">
+                            <div class="off">24%</div>
+                        </div>
+                        <div class="discounts-product">
+                            <p>دوچرخه مدل S-2000</p>
+                            <p>۲۰۰۰۰۰ تومان</p>
+                            <p>از سایز L تا XXL</p>
+                            <div class="color-selector">
+                                <span class="color-dot beige active"></span>
+                                <span class="color-dot brown"></span>
+                                <span class="color-dot black"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="discounts" id="shoes">
+                        <img src="image/cec014618736428cf5c7dda14f0b84024d6bc3ac.jpg" alt=دوچرخه class="off-image">
+                        <div class="label">
+                            <div class="off">24%</div>
+                        </div>
+                        <div class="discounts-product">
+                            <p>دوچرخه مدل AO-14</p>
+                            <p>۲۰۰۰۰۰ تومان</p>
+                            <p>از سایز L تا XXL</p>
+                            <div class="color-selector">
+                                <span class="color-dot beige active"></span>
+                                <span class="color-dot brown"></span>
+                                <span class="color-dot black"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Product-card" id="Product">
+                    <div class="card-home-page">
+                        <img src="image/cbabfbec70fb9396652a1e542d144dceaa7f3779.png">
+                        <div class="card">
+                            <p>جدید ترین تخفیفات فصل برند پوما</p>
+                            <p><span>۵۰ ٪ </span>تخفیف روی تمام محصولات </p>
+                        </div>
+                    </div>
+
+                    <div class="card-home-page">
+                        <img src="image/667fb484c4f93f1801fa632cbb1564f6661fc254.png" alt="لباس">
+                        <div class="card">
+                            <p>جدید ترین تخفیفات فصل برند نایک</p>
+                            <p> <span>۵۰ ٪ </span>تخفیف روی تمام محصولات </p>
+                        </div>
+                    </div>
+
+                    <div class="card-button">
+                        <p>جدید ترین محصولات با ارسال رایگان تهیه کنید و در سریع ترین زمان درب منزل تحویل بگیرید</p>
+                        <button class="button-discount">مشاهده محصولات</button>
+                    </div>
+
+                </div>
+                <div class="baner">
+                    <img src="image/c743d0951557c3c163f15681dfb206b40ac4ea25.jpg" alt="کمپ" class="image-last-baner">
+                    <div class="baner-content-three">
+                        <p>بزودی کامل ترین مجموعه از<br> لوازم کمپ در فیت لند <br><span>از سفر لذت ببر</span></p>
+                    </div>
+                </div>
+
+                <div class="Section-news">
+                    <h4>جدیدترین ها در اخبار ورزش</h4>
+                    <div class="news-container">
+
+                        <div class="news">
+                            <div class="news-image">
+                                <img src="image/3566f6509e2066f973335f384c09fa18727f63b1.jpg">
+                            </div>
+                            <div>
+                                <p class="titr-blog">افزایش دریافتی فوتبالیست ها و معافیت از سربازی </p>
+                                <p class="blog">خبرها حاکی از آن است که رییس فدراسیون فوتبال اعلام کرد در فصل جاری قرار
+                                    داد هر بازیکن فوتبال 50 درصد افزایش پیدا میکند همچنین وی گفت...</p>
+                            </div>
+                            <button>
+                                <span class="material-symbols-outlined">
+                                    arrow_circle_left
+                                </span>مشاهده خبر</button>
+                        </div>
+
+                        <div class="news" id="shoes">
+                            <div class="news-image">
+                                <img src="image/5f038f708d15a72d674d112df9f97509710ca576.png">
+                            </div>
+                            <div>
+                                <p class="titr-blog">شکست استرالیا در گام نخست جام جهانی فوتبال زنان!</p>
+                                <p class="blog">تیم‌ها در روز اول مسابقات جام جهانی فوتبال زنان در شهر مادرید اسپانیا با
+                                    یکدیگر به رقابت پرداختند.</p>
+                            </div>
+                            <button>
+                                <span class="material-symbols-outlined">
+                                    arrow_circle_left
+                                </span>مشاهده خبر</button>
+                        </div>
+
+                    </div>
+                </div>
+    </main>
+
+
+    <div class="Before-Footer">
+        <div class="Before-Footer-item">
+            <span class="material-symbols-outlined">local_shipping</span>
+            <p>ارسال سریع</p>
+        </div>
+        <div class="Before-Footer-item">
+            <img src="image/paypal-140-svgrepo-com.svg" alt="پرداخت">
+            <p>پرداخت قسطی</p>
+        </div>
+        <div class="Before-Footer-item">
+            <span class="material-symbols-outlined">home</span>
+            <p>پرداخت درب منزل</p>
+        </div>
+        <div class="history">
+            <p>با بیش از ده سال سابقه فروش لوازم<br> ورزشی و لباس های ورزشی</p>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="one-half">
+            <div class="footer-one">
+                <div>
+                    <p>برای دریافت تخفیف های بیشتر ما را دنبال کنید!</p>
+                    <div class="social-media">
+                        <img src="image/youtube-svgrepo-com.svg" alt="یوتیوب">
+                        <img src="image/whatsapp-svgrepo-com.svg" alt="واتساپ">
+                        <img src="image/telegram-svgrepo-com (1).svg" alt="تلگرام">
+                    </div>
+                </div>
+                <div>
+                    <p>خبرنامه فیت‌لند</p>
+                    <div class="input-wrapper">
+                        <input type="email" placeholder="ایمیل خود را وارد کنید...">
+                        <button type="submit">ثبت‌</button>
+                    </div>
+            </div>
+            <div class="footer-two">
+                <details class="footer-two-content" open>
+                    <summary>محبوب‌ترین‌ها</summary>
+                    <ul class="beloved">
+                        <li>لباس مردانه</li>
+                        <li>کفش فوتبال</li>
+                        <li>دوچرخه</li>
+                        <li>لباس زنانه</li>
+                    </ul>
+                </details>
+
+                <details class="footer-two-content" open>
+                    <summary>خدمات مشتریان</summary>
+                    <ul class="service">
+                        <li>سوالات متداول</li>
+                        <li>حریم خصوصی</li>
+                        <li>گزارش ایراد در سایت</li>
+                        <li>شرایط بازگرداندن محصول</li>
+                    </ul>
+                </details>
+
+                <details class="footer-two-content" open>
+                    <summary>راهنمای خرید</summary>
+                    <ul class="guide">
+                        <li>راهنمای ثبت سفارش</li>
+                        <li>شیوه های پرداخت</li>
+                        <li>نحوه ارسال سفارش ها</li>
+                        <li>نحوه پیگیری محصول</li>
+                    </ul>
+                </details>
+
+                <details class="footer-two-content" open>
+                    <summary>اطلاعات تماس</summary>
+                    <ul class="contact">
+                        <li>نشانی تهران - تجریش - خیابان سالور</li>
+                        <li>شماره تماس <span> 3456789-021</span></li>
+                        <li>پست الکترونیک <span> info@fitland.com</span></li>
+                        <li>ساعت کاری شنبه تا چهارشنبه 9 تا 17</li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+
+        <div class="two-half">
+            <div class="footer-three">
+                <p class="titr-footer-three">فروشگاه اینترنتی فیت‌لند</p>
+                <div class="footer-description" id="footerDesc">
+                     <p>فروشگاه لوازم ورزشی فیت‌لند در سال ۱۴۰۳ کار خود را آغاز کردو با هدف ارائه جدیدترین
+                         محصولات ورزشی از قبیل لوازم فوتبال، فوتسال، والیبال، بسکتبال، تنیس و... همچنین پوشاک ورزشی و تجهیزات
+                         سفر، از برند های معتبر دنیا در محیطی کاربرپسند، قابل اطمینان و با مجربترین مشاوران و کارشناسان ورزشی
+                         فعالیت می کند. فروشگاه فیت‌لند دارای نماد اعتماد از وزارت صنعت معدن و تجارت می باشد و تمامی محصولات
+                        خود را با 7 روز ضمانت بازگشت همراه با گارانتی اصالت و سلامت فیزیکی، با سریع ترین روش های ارسال به
+                        سراسر ایران در اختیار مشتریان خود قرار می دهد.</p>
+                </div>
+                <span class="read-more" id="toggleBtn">مشاهده بیشتر...</span>
+            </div>
+            <div class="footer-four">
+                <div class="namad">
+                    <img src="image/5be28e1fb7579a123e3c54bc614ed2b83758f086 (1).jpg">
+                    <img src="image/e488e9fb2220878a4f48ab0f0794fdbba2546eb1.jpg">
+                    <img src="image/a721e7e0d4599ac39f689fccfc571f0bb6e83ddb.jpg">
+                </div>
+                <p>یک هفته ضمانت بازگشت ✍</p>
+            </div>
+        </div>
+        <div class="copyright">
+            تمامی حقوق مادی و معنوی این وب‌سایت برای مجموعه فیت‌لند محفوظ می‌باشد.
+        </div>
+    </div>
+    </div>
+    </div>
+    <script>
+        // ۱. المان دکمه همبرگری را با ID آن پیدا می‌کنیم
+        const menuButton = document.getElementById('menu-button');
+
+        // ۲. المان منوی اصلی را با ID آن پیدا می‌کنیم
+        const mainMenu = document.getElementById('main-menu');
+
+        // ۳. یک رویداد شنونده (EventListener) به دکمه همبرگری اضافه می‌کنیم
+        menuButton.addEventListener('click', () => {
+            // کلاس 'nav-open' را به منوی اصلی اضافه یا حذف می‌کند
+            mainMenu.classList.toggle('nav-open');
+
+            // 💡 تغییر آیکون: اگر منو باز بود، آیکون 'بستن' را نشان بده
+            if (mainMenu.classList.contains('nav-open')) {
+                menuButton.textContent = 'close';
+            } else {
+                menuButton.textContent = 'menu';
+            }
+        });
+    </script>
+</body>
+
+</html>
