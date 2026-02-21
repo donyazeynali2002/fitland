@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html  lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>product</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h3>Fitland</h3>
+            <p>فروشگاه لوازم ورزشی فیت لند</p>
+            <span class="material-symbols-outlined mobile-menu" id="menu-button">
+                menu
+            </span>
+        </div>
+
+        <div class="search-wrapper">
+            <span class="search material-symbols-outlined" id="search">search</span>
+            <input type="search" placeholder="جستجو" class="search-box">
+        </div>
+
+        <nav class="user-actions">
+            <a href="" class="login-link">
+                <span class="material-symbols-outlined person" id="person">person</span>
+            </a>
+
+            <a href="#" class="cart-link">
+                <span class="material-symbols-outlined">shopping_bag</span>
+                <span class="cart-count">0</span>
+            </a>
+        </nav>
+    </header>
+
+    <nav class="main-navigation" id="main-menu">
+        <ul class="menu">
+            <li><a href="#">مردانه</a></li>
+            <li><a href="#">زنانه</a></li>
+            <li><a href="#">بچگانه</a></li>
+            <li><a href="#">لوازم ورزشی</a></li>
+            <li><a href="#">شیکر و قمقمه</a></li>
+        </ul>
+
+        <ul class="menu">
+            <li class="highlight">
+                <span class="material-symbols-outlined">kid_star</span>
+                <a href="#">جدیدترین محصولات</a>
+            </li>
+            <li class="highlight">
+                <span class="material-symbols-outlined">flash_on</span>
+                <a href="#">تخفیفات ویژه</a>
+            </li>
+            <li class="highlight">
+                <span class="material-symbols-outlined">workspace_premium</span>
+                <a href="#">پرفروش‌ترین</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="menu-history">
+        <div class="woman">زنانه</div>
+        <span class="material-symbols-outlined back">
+            arrow_back
+            </span>
+        <div class="dress-woman">لباس زنانه</div>
+        <span class="material-symbols-outlined back">
+            arrow_back
+            </span>
+        <div class="shirt-woman">تیشرت زنانه</div>
+    </div>
+    
+    <div class="layout">
+        <aside>
+            <div class="filter">
+                <p>فیلتر ها</p>
+                <button>حذف فیلتر ها</button>
+            </div>
+            <div class="available-product">
+                <p>محصولات موجود</p>
+                <label class="toggle">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>            
+            </div>
+            <div class="available-product">
+                <p>محصولات تخفیف دار </p>
+                <label class="toggle">
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                </label>            
+            </div>
+    
+            <details class="price">
+    
+                <summary>قیمت</summary>
+    
+                <div class="limit-price">
+                    <label for="input">بیشترین</label>
+                    <input type="text" placeholder="وارد کنید">
+                </div>
+    
+                <div class="limit-price">
+                    <label for="input">کمترین</label>
+                    <input type="text" placeholder="وارد کنید">
+                </div>
+    
+                <div class="price-range">
+                
+                    <div class="slider-track"></div>
+                
+                    <input type="range" min="0" max="1000" value="200" class="range-min">
+                    <input type="range" min="0" max="1000" value="800" class="range-max">
+    
+                    <span class="label min">Min</span>
+                    <span class="label max">Max</span>
+                
+                </div>            
+                
+            </details>
+    
+            <details class="color"> 
+                <summary>رنگ</summary>
+                <div class="circles">
+                    <div class="circle one"></div>
+                    <div class="circle two"></div>
+                    <div class="circle three"></div>
+                    <div class="circle four"></div>
+                    <div class="circle five"></div>
+                    <div class="circle six"></div>
+                    <div class="circle seven"></div>
+                </div>
+            </details>
+    
+            <details >
+                <summary>سایز</summary>
+                <div class="size">
+                    <div class="size-box">L</div>
+                    <div class="size-box">M</div>
+                    <div class="size-box">S</div>
+                    <div class="size-box">XXL</div>
+                    <div class="size-box">XL</div>
+                </div>
+            </details>
+    
+            <details class="brand">
+                <summary>برند</summary>
+                <div>
+
+                    <div class="search-wrapper">
+                        <span class="search material-symbols-outlined" id="search">search</span>
+                        <input type="search" placeholder="جستجو" class="search-box">
+                    </div>
+
+                    <div class="name-brand">
+                        <div class="brand-box">The North Face</div>
+                        <div class="brand-box">Under Armour</div>
+                        <div class="brand-box">nike</div>
+                    </div>
+
+                    <div class="name-brand">
+                        <div class="brand-box">nike</div>
+                        <div class="brand-box">Fila</div>
+                        <div class="brand-box">adidas</div>
+                    </div>
+
+                    <div class="name-brand">
+                        <div class="brand-box">Fila </div>
+                        <div class="brand-box">adidas</div>
+                        <div class="brand-box">Under Armour</div>
+                    </div>
+
+                </div>
+            </details>
+    
+        </aside>
+    
+        <div>
+            <div class="product-sorting">
+                <ul>
+                    <li><a href="">پربازدیدترین</a></li>
+                    <li><a href="">جدیدترین</a></li>
+                    <li><a href="">پرفروش ترین</a></li>
+                    <li><a href="">گران ترین</a></li>
+                    <li><a href="">ارزان ترین</a></li>
+                </ul>
+
+                <div class="all-product">2,521 کالا</div>
+            </div>
+            
+        
+            <div class="home-products">
+                <div class="product-card">
+        
+                    <div class="image-container">
+                        <img src="image/8fad79ab19168d3d8e3e254edb225847ecd506dd.png" alt="لباس">
+                    </div>
+        
+                    <div class="discounts-product">
+        
+                        <div class="star">
+                            <p>تیشرت زنانه کد 1727</p>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                        </div>
+                        <p>از سایز M تا 3XL</p>
+                        <p>400,000 تومان</p>
+                       
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+                <div class="product-card">
+                    <div class="image-container">
+                        <img src="image/82ce95a40fdc09e950acdbbd845da2e222c7e668.png" alt="لباس">
+                    </div>
+
+                    <div class="discounts-product">
+        
+                        <div class="star">
+                            <p>تیشرت زنانه کد 1727</p>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                        </div>
+                        <p>از سایز M تا 3XL</p>
+                        <p> 190,000 تومان</p>
+                       
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="product-card  image-size">
+                    <div class="image-container">
+                        <img src="image/fb813af67d1f6fe13944e2448cda8fd12d853ff6.png" alt="لباس">
+                    </div>
+
+                    <div class="card-size">
+                        <div class="first">
+                            <div class="size-image">XL</div>
+                            <div  class="size-image">L</div>
+                            <div  class="size-image">M</div>
+                            <div  class="size-image">S</div>
+                            <div  class="size-image">XS</div>
+                        </div>
+                        <div  class="secound">
+                            <div  class="size-image">3XL</div>
+                            <div  class="size-image">2XL</div>
+                        </div>
+                    </div>
+        
+        
+                    <div class="discounts-product">
+        
+                        <div class="star">
+                            <p>تیشرت زنانه کد 1727</p>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                        </div>
+                        <p>از سایز M تا 3XL</p>
+                        <p> 160,000 تومان</p>
+                       
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="image-container">
+                        <img src="image/6c45a79661b18c088a76fd99d9f917d203040fa4.png" alt="لباس">
+                    </div>
+        
+                    <div class="discounts-product">
+        
+                        <div class="star">
+                            <p>تیشرت زنانه کد 1727</p>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                        </div>
+                        <p>از سایز M تا 3XL</p>
+                        <p> 190,000 تومان</p>
+                       
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="image-container">
+                        <img src="image/card-home-page.png" alt="لباس">
+                    </div>
+        
+                    <div class="discounts-product">
+        
+                        <div class="star">
+                            <p>تیشرت زنانه کد 1727</p>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                        </div>
+                        <p>از سایز M تا 3XL</p>
+                        <p> 190,000 تومان</p>
+                       
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="image-container">
+                        <img src="image/69b7d897a122002ccb394029dace1afc8518096f.png" alt="لباس">
+                    </div>
+        
+                    <div class="discounts-product">
+        
+                        <div class="star">
+                            <p>تیشرت زنانه کد 1727</p>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                        </div>
+                        <p>از سایز M تا 3XL</p>
+                        <p> 190,000 تومان</p>
+                       
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="image-container">
+                        <img src="image/2048fe5bb3ac3effa03181ac173215c9e38c3dd9.png" alt="لباس">
+                    </div>
+        
+                    <div class="discounts-product">
+        
+                        <div class="star">
+                            <p>تیشرت زنانه کد 1727</p>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                        </div>
+                        <p>از سایز M تا 3XL</p>
+                        <p> 190,000 تومان</p>
+                       
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="image-container">
+                        <img src="image/c991e02ce12197bad5ac517e733c046c9d176d61.png" alt="لباس">
+                    </div>
+        
+                    <div class="discounts-product">
+        
+                        <div class="star">
+                            <p>تیشرت زنانه کد 1727</p>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                        </div>
+                        <p>از سایز M تا 3XL</p>
+                        <p> 190,000 تومان</p>
+                       
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="image-container">
+                        <img src="image/95813f83339072edf747e8e9e0d319bd0a4b5046.png" alt="لباس">
+                    </div>
+        
+                    <div class="discounts-product">
+        
+                        <div class="star">
+                            <p>تیشرت زنانه کد 1727</p>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                        </div>
+                        <p>از سایز M تا 3XL</p>
+                        <p> 190,000 تومان</p>
+                       
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="image-container">
+                        <img src="image/12f6433679c85c82703aba1d772edd5c404389ea.png" alt="لباس">
+                    </div>
+        
+                    <div class="discounts-product">
+        
+                        <div class="star">
+                            <p>تیشرت زنانه کد 1727</p>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                        </div>
+                        <p>از سایز M تا 3XL</p>
+                        <p> 190,000 تومان</p>
+                       
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="image-container">
+                        <img src="image/31f67730af9f231fb283fff0cf01451b72d036b6.png" alt="لباس">
+                    </div>
+        
+                    <div class="discounts-product">
+        
+                        <div class="star">
+                            <p>تیشرت زنانه کد 1727</p>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                        </div>
+                        <p>از سایز M تا 3XL</p>
+                        <p> 190,000 تومان</p>
+                       
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="product-card">
+                    <div class="image-container">
+                        <img src="image/82774be60c539d0ad5584cbb1778488786384a2a.png" alt="لباس">
+                    </div>
+        
+                    <div class="discounts-product">
+        
+                        <div class="star">
+                            <p>تیشرت زنانه کد 1727</p>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                            <span class="material-symbols-outlined">kid_star</span>
+                        </div>
+                        <p>از سایز M تا 3XL</p>
+                        <p> 190,000 تومان</p>
+                       
+                        <div class="color-selector">
+                            <span class="color-dot beige active"></span>
+                            <span class="color-dot brown"></span>
+                            <span class="color-dot black"></span>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="one-half">
+            <div class="footer-one">
+                <div>
+                    <p>برای دریافت تخفیف های بیشتر ما را دنبال کنید!</p>
+                    <div class="social-media">
+                        <img src="image/youtube-svgrepo-com.svg" alt="یوتیوب">
+                        <img src="image/whatsapp-svgrepo-com.svg" alt="واتساپ">
+                        <img src="image/telegram-svgrepo-com (1).svg" alt="تلگرام">
+                    </div>
+                </div>
+                <div>
+                    <p>خبرنامه فیت‌لند</p>
+                    <div class="input-wrapper">
+                        <input type="email" placeholder="ایمیل خود را وارد کنید...">
+                        <button type="submit">ثبت‌</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-two">
+                <details class="footer-two-content" open>
+                    <summary>محبوب‌ترین‌ها</summary>
+                    <ul class="beloved">
+                        <li>لباس مردانه</li>
+                        <li>کفش فوتبال</li>
+                        <li>دوچرخه</li>
+                        <li>لباس زنانه</li>
+                    </ul>
+                </details>
+
+                <details class="footer-two-content" open>
+                    <summary>خدمات مشتریان</summary>
+                    <ul class="service">
+                        <li>سوالات متداول</li>
+                        <li>حریم خصوصی</li>
+                        <li>گزارش ایراد در سایت</li>
+                        <li>شرایط بازگرداندن محصول</li>
+                    </ul>
+                </details>
+
+                <details class="footer-two-content" open>
+                    <summary>راهنمای خرید</summary>
+                    <ul class="guide">
+                        <li>راهنمای ثبت سفارش</li>
+                        <li>شیوه های پرداخت</li>
+                        <li>نحوه ارسال سفارش ها</li>
+                        <li>نحوه پیگیری محصول</li>
+                    </ul>
+                </details>
+
+                <details class="footer-two-content" open>
+                    <summary>اطلاعات تماس</summary>
+                    <ul class="contact">
+                        <li>نشانی تهران - تجریش - خیابان سالور</li>
+                        <li>شماره تماس <span> 3456789-021</span></li>
+                        <li>پست الکترونیک <span> info@fitland.com</span></li>
+                        <li>ساعت کاری شنبه تا چهارشنبه 9 تا 17</li>
+                    </ul>
+                </details>
+            </div>
+        </div>
+
+        <div class="two-half">
+            <div class="footer-three">
+                <p class="titr-footer-three">فروشگاه اینترنتی فیت‌لند</p>
+                <div class="footer-description" id="footerDesc">
+                     <p>فروشگاه لوازم ورزشی فیت‌لند در سال ۱۴۰۳ کار خود را آغاز کردو با هدف ارائه جدیدترین
+                         محصولات ورزشی از قبیل لوازم فوتبال، فوتسال، والیبال، بسکتبال، تنیس و... همچنین پوشاک ورزشی و تجهیزات
+                         سفر، از برند های معتبر دنیا در محیطی کاربرپسند، قابل اطمینان و با مجربترین مشاوران و کارشناسان ورزشی
+                         فعالیت می کند. فروشگاه فیت‌لند دارای نماد اعتماد از وزارت صنعت معدن و تجارت می باشد و تمامی محصولات
+                        خود را با 7 روز ضمانت بازگشت همراه با گارانتی اصالت و سلامت فیزیکی، با سریع ترین روش های ارسال به
+                        سراسر ایران در اختیار مشتریان خود قرار می دهد.</p>
+                </div>
+                <span class="read-more" id="toggleBtn">مشاهده بیشتر...</span>
+            </div>
+            <div class="footer-four">
+                <div class="namad">
+                    <img src="image/5be28e1fb7579a123e3c54bc614ed2b83758f086 (1).jpg">
+                    <img src="image/e488e9fb2220878a4f48ab0f0794fdbba2546eb1.jpg">
+                    <img src="image/a721e7e0d4599ac39f689fccfc571f0bb6e83ddb.jpg">
+                </div>
+                <p>یک هفته ضمانت بازگشت ✍</p>
+            </div>
+        </div>
+        <div class="copyright">
+            تمامی حقوق مادی و معنوی این وب‌سایت برای مجموعه فیت‌لند محفوظ می‌باشد.
+        </div>
+    </div>
+</body>
+</html>

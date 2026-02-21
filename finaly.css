@@ -523,7 +523,6 @@ h2 {
     flex-direction: column;
     font-size: 24px;
     margin-right: 100px;
-    align-items: center;
     margin-bottom: 100px;
 }
 
@@ -550,15 +549,16 @@ h2 {
     justify-content: center;
 }
 
+
 .baner-content-three {
-    width: 409px;
-    height: 134px;
+    width: 34%;       
+    height: 16.7%;     
     position: absolute;
     color: rgba(255, 255, 255, 1);
-    font-size: 32px;
+    font-size: 2rem;
     text-align: right;
-    top: 75px;
-    right: 170px;
+    top: 12%;        
+    right: 12%;    
 }
 
 .baner-content-three span{
@@ -925,8 +925,6 @@ h4 {
 
 .footer {
     width: 100%;
-    /* height: auto; */
-    /* margin-top: 32px; */
     padding: 60px 0 40px;
     opacity: 1;
     background: rgba(2, 21, 38, 1);
@@ -1398,21 +1396,21 @@ input {
   
     .image-baner {
       width: 100%;
+      height: auto;
       position: absolute;
       z-index: 1;
       object-fit: cover;
+      
     }
   
     .baner-content {
-      width: 100%;
-      height: auto;  
-      background: rgba(255, 255, 255, 0.1);
+      width: 100%;  
       position: absolute;
       z-index: 2;
       text-align: right;
       margin: 0;
-      align-items: flex-start;     /* عمودی */
-      justify-content: flex-start; /* افقی */
+      align-items: flex-start;     
+      justify-content: flex-start; 
       text-align: right;
     }
   
@@ -1434,14 +1432,12 @@ input {
       display: none;
     }
 
-        .baner-content-three {
-            right: 0;             
-            left:auto;              
-            top: 10px;
-            position: absolute;
-            height: auto;
-            line-height: 1.2;
-        }
+    .baner-content-three {
+        position: absolute;
+        line-height: 1.2;
+        text-align: right;
+        font-size: 12px;
+    }
     
         .baner-content-three span {
             font-size: 8px;
@@ -1484,17 +1480,6 @@ input {
   
     #shoes {
       display: none;
-    }
-  
-    .baner-content-three {
-      width: 100%;
-      margin: 0;
-      padding: 20px;
-      font-size: 18px;
-      text-align: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
     }
   
     h4 {
