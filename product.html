@@ -14,12 +14,14 @@
 </head>
 <body>
     <header class="header">
+
+        <span class="material-symbols-outlined mobile-menu" id="menu-button">
+            menu
+        </span>
+        
         <div class="logo">
             <h3>Fitland</h3>
             <p>فروشگاه لوازم ورزشی فیت لند</p>
-            <span class="material-symbols-outlined mobile-menu" id="menu-button">
-                menu
-            </span>
         </div>
 
         <div class="search-wrapper">
@@ -78,107 +80,106 @@
     
     <div class="layout">
         <aside>
-            <div class="filter">
-                <p>فیلتر ها</p>
-                <button>حذف فیلتر ها</button>
-            </div>
-            <div class="available-product">
-                <p>محصولات موجود</p>
-                <label class="toggle">
-                    <input type="checkbox">
-                    <span class="slider"></span>
-                </label>            
-            </div>
-            <div class="available-product">
-                <p>محصولات تخفیف دار </p>
-                <label class="toggle">
-                    <input type="checkbox" id="discounts-toggle">
-                    <span class="slider"></span>
-                </label>            
-            </div>
-    
-            <details class="price">
-    
-                <summary>قیمت</summary>
-    
-                <div class="limit-price">
-                    <label for="input">بیشترین</label>
-                    <input type="text" placeholder="وارد کنید">
+                <div class="filter">
+                    <p>فیلتر ها</p>
+                    <button>حذف فیلتر ها</button>
                 </div>
-    
-                <div class="limit-price">
-                    <label for="input">کمترین</label>
-                    <input type="text" placeholder="وارد کنید">
+                <div class="available-product">
+                    <p>محصولات موجود</p>
+                    <label class="toggle">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>            
                 </div>
-    
-                <div class="price-range">
-                
-                    <div class="slider-track"></div>
-                
-                    <input type="range" min="0" max="1000" value="200" class="range-min">
-                    <input type="range" min="0" max="1000" value="800" class="range-max">
-    
-                    <span class="label min">Min</span>
-                    <span class="label max">Max</span>
-                
-                </div>            
-                
-            </details>
-    
-            <details class="color"> 
-                <summary>رنگ</summary>
-                <div class="circles">
-                    <div class="circle one"></div>
-                    <div class="circle two"></div>
-                    <div class="circle three"></div>
-                    <div class="circle four"></div>
-                    <div class="circle five"></div>
-                    <div class="circle six"></div>
-                    <div class="circle seven"></div>
+                <div class="available-product">
+                    <p>محصولات تخفیف دار </p>
+                    <label class="toggle">
+                        <input type="checkbox" id="discounts-toggle">
+                        <span class="slider"></span>
+                    </label>            
                 </div>
-            </details>
-    
-            <details >
-                <summary>سایز</summary>
-                <div class="size">
-                    <div class="size-box">L</div>
-                    <div class="size-box">M</div>
-                    <div class="size-box">S</div>
-                    <div class="size-box">XXL</div>
-                    <div class="size-box">XL</div>
-                </div>
-            </details>
-    
-            <details class="brand">
-                <summary>برند</summary>
-                <div>
-
-                    <div class="search-wrapper">
-                        <span class="search material-symbols-outlined" id="search">search</span>
-                        <input type="search" placeholder="جستجو" class="search-box">
+        
+                <details class="price">
+        
+                    <summary>قیمت</summary>
+        
+                    <div class="limit-price">
+                        <label for="input">بیشترین</label>
+                        <input type="text" placeholder="وارد کنید">
                     </div>
-
-                    <div class="name-brand">
-                        <div class="brand-box">The North Face</div>
-                        <div class="brand-box">Under Armour</div>
-                        <div class="brand-box">nike</div>
+        
+                    <div class="limit-price">
+                        <label for="input">کمترین</label>
+                        <input type="text" placeholder="وارد کنید">
                     </div>
-
-                    <div class="name-brand">
-                        <div class="brand-box">nike</div>
-                        <div class="brand-box">Fila</div>
-                        <div class="brand-box">adidas</div>
+        
+                    <div class="price-range">
+                    
+                        <div class="slider-track"></div>
+                    
+                        <input type="range" min="0" max="1000" value="200" class="range-min">
+                        <input type="range" min="0" max="1000" value="800" class="range-max">
+        
+                        <span class="label min">Min</span>
+                        <span class="label max">Max</span>
+                    
+                    </div>            
+                    
+                </details>
+        
+                <details class="color"> 
+                    <summary>رنگ</summary>
+                    <div class="circles">
+                        <div class="circle one"></div>
+                        <div class="circle two"></div>
+                        <div class="circle three"></div>
+                        <div class="circle four"></div>
+                        <div class="circle five"></div>
+                        <div class="circle six"></div>
+                        <div class="circle seven"></div>
                     </div>
-
-                    <div class="name-brand">
-                        <div class="brand-box">Fila </div>
-                        <div class="brand-box">adidas</div>
-                        <div class="brand-box">Under Armour</div>
+                </details>
+        
+                <details >
+                    <summary>سایز</summary>
+                    <div class="size">
+                        <div class="size-box">L</div>
+                        <div class="size-box">M</div>
+                        <div class="size-box">S</div>
+                        <div class="size-box">XXL</div>
+                        <div class="size-box">XL</div>
                     </div>
-
-                </div>
-            </details>
+                </details>
+        
+                <details class="brand">
+                    <summary>برند</summary>
+                    <div>
     
+                        <div class="search-wrapper">
+                            <span class="search material-symbols-outlined" id="search">search</span>
+                            <input type="search" placeholder="جستجو" class="search-box">
+                        </div>
+    
+                        <div class="name-brand">
+                            <div class="brand-box">The North Face</div>
+                            <div class="brand-box">Under Armour</div>
+                            <div class="brand-box">nike</div>
+                        </div>
+    
+                        <div class="name-brand">
+                            <div class="brand-box">nike</div>
+                            <div class="brand-box">Fila</div>
+                            <div class="brand-box">adidas</div>
+                        </div>
+    
+                        <div class="name-brand">
+                            <div class="brand-box">Fila </div>
+                            <div class="brand-box">adidas</div>
+                            <div class="brand-box">Under Armour</div>
+                        </div>
+    
+                    </div>
+                </details>    
         </aside>
     
         <div>
